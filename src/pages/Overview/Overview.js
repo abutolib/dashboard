@@ -98,7 +98,7 @@ export const Overview = () => {
     inputValue.current.value = ""
   }
   console.log(todos);
-  //localStorage.setItem('todos', JSON.stringify(todos))
+  localStorage.setItem('todos', JSON.stringify(todos))
 
   return (
     <>
