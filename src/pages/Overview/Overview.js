@@ -89,11 +89,7 @@ export const Overview = () => {
       isCompleted: false
     }
 
-    setTodos([...todos, todo])
-
-    let todos2=todos.reverse();
-
-    setTodos([...todos2])
+    setTodos([ todo,...todos,])
 
     inputValue.current.value = ""
   }
