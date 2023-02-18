@@ -1,0 +1,37 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  border: 1px solid #DFE0EB;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+.todo-text {
+  margin-left: 8px;
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.btn{
+  margin-left: auto;
+  padding: 5px 12px;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.urgent-btn {
+  background: #FEC400;
+}

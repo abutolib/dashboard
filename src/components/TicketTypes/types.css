@@ -1,0 +1,41 @@
+.ticketTypes-item {
+  width: 258px;
+  padding: 24px 0;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+}
+.ticketTypes-item:hover {
+  border: 1px solid #3751FF;
+}
+.ticketTypes-item:hover .ticketTypes-item__number  {
+  color: #3751FF;
+}
+.ticketTypes-item:hover .ticketTypes-item__title  {
+  color: #3751FF;
+}
+
+.ticketTypes-item__title {
+  margin: 0;
+  margin-bottom: 12px;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #9FA2B4;
+
+}
+
+.ticketTypes-item__number {
+  margin: 0;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #252733;
+
+}

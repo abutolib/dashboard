@@ -1,0 +1,36 @@
+.navbar__item {
+  
+}
+
+
+
+.navbar__link {
+  display: flex;
+  align-items: center;
+  padding: 18px 20px  ;
+  gap: 24px;
+  font-family: 'Mulish';
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #A4A6B3;
+  text-decoration: none;
+}
+
+.navbar__link--active {
+  color: #fff;
+  padding: 18px 17.5px;
+  background: rgba(126, 129, 126, 0.133);
+  border-left: 3px solid #DDE2FF;
+}
+
+.line-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.line{
+  border: 1px solid #DFE0EB;
+  opacity: 0.08;
+}
