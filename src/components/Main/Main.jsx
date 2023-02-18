@@ -8,6 +8,7 @@ export const Main = () => {
     <main className="site-main">
       <Routes>
         <Route path='/overview' element={<Overview/>}/>
+        <Route path='/' element={<Overview/>}/>
         <Route path='/tickets' element={<Tickets/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
