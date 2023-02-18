@@ -6,12 +6,14 @@ import './Main.css'
 export const Main = () => {
   return (
     <main className="site-main">
+      <div className='container23'>
       <Routes>
         <Route path='/overview' element={<Overview/>}/>
         <Route path='/' element={<Overview/>}/>
         <Route path='/tickets' element={<Tickets/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
+      </div>
     </main>
   )
 }
