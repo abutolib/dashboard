@@ -23,7 +23,8 @@ export const Item = ({ todos, setTodos, id, text, isCompleted }) => {
     <li className="todo-item">
       <input onChange={() => handleChange(id)} checked={isCompleted} className="form-check-input" type="checkbox" />
       <span className= 'todo-text' >{text}</span>
-      <button onClick={() => handleEdit(id)} className="btn urgent-btn">Urgent</button>
+      <button style={{marginLeft:"auto",marginRight:"10px"}} onClick={() => handleEdit(id)} className="btn urgent-btn">Edit</button>
+      <button onClick={() => handleClick(id)} className="btn urgent-btn">Delete</button>
     </li>
   )
 }
